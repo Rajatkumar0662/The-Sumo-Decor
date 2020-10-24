@@ -8,6 +8,7 @@ https://templatemo.com/tm-518-sentra
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-style: normal;
 }
 
 p {
@@ -22,7 +23,7 @@ p {
 }
 
 .content-section {
-    padding-top: 80px;
+    padding-top: 0px;
     position: relative;
     width: 100%;
     display: inline-block;
@@ -39,6 +40,27 @@ p {
 .section-heading {
     text-align: left;
     position: relative;
+    margin-bottom: 20px;
+}
+
+.leading-relaxed {
+    padding-top: 0px;
+    position: relative;
+    font-size: 15px;
+    color: #232323;
+    font-style: normal;
+}
+
+.name {
+    font-size: 15px;
+    color: #232323;
+    font-style: normal;
+}
+
+.position {
+    font-size: 17px;
+    color: gray;
+    font-style: normal;
     margin-bottom: 60px;
 }
 
@@ -78,6 +100,7 @@ p {
     letter-spacing: 0.25px;
     text-decoration: none;
     transition: all 0.3s;
+    font-style: normal;
 }
 
 .white-button a:hover {
@@ -241,6 +264,29 @@ header {
 .sidebar-navigation span {
     display: inline-block;
     position: relative;
+
+}
+
+.sidebar-navigation nav a {
+    display: inline-block;
+    color: #fff;
+    margin-top: 5px;
+    text-decoration: none!important;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.circle {
+    margin-right: 5px;
+    height: 10px;
+    width: 10px;
+    left: 0px;
+    top: -1px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: all 0.3s;
 }
 
 .sidebar-navigation nav a {
